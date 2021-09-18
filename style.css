@@ -1,0 +1,51 @@
+*{
+    background: url(stretched-1366-768-221968.jpg) no-repeat ;
+}
+.container{
+    position: relative; 
+  border: 2px solid red; 
+   height: 40vw;
+   width: 40vw;
+   background: url(clock.jpg) no-repeat ;
+   margin: auto;
+ background-size: 100%;
+ 
+}
+#hour,#min,#sec{
+    background: black;
+     position: absolute; 
+    border-radius: 20px;
+    transform-origin: bottom;
+  
+}
+#hour{
+    width: 12px;
+    height: 22%;
+    top: 27.32%;
+
+    left: 49.21%;
+    background: rgb(22, 22, 22);
+    opacity: 0.4;
+    
+}
+#min{
+       
+        opacity: 0.7;
+        width: 9px;
+        height: 28%;
+        top: 22.30%;
+        left: 49.34%;
+    
+    background: rgb(24, 22, 22);
+}
+#sec{
+    
+    opacity: 0.9;
+    
+    width: 5px;
+    height: 35%;
+    top: 15.4%;
+    left: 49.55%;
+    background: rgb(23, 24, 23);
+  
+}
