@@ -1,5 +1,8 @@
 *{
     background: url(stretched-1366-768-221968.jpg) no-repeat ;
+    background-size: cover;
+     z-index: 0;
+     opacity: .9;  
 }
 .container{
     position: relative; 
